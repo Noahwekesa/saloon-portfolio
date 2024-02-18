@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Navbar from "../components/navbar";
 import { Spotlight } from "../components/ui/Spotlight";
+import SliderOne from "../components/ui/Slider";
 
 export default function Home() {
   return (
@@ -24,6 +24,9 @@ export default function Home() {
         >
           BOOK NOW
         </Link>
+        <div className="w-full" pt-20>
+          <SliderOne />
+        </div>
       </div>
     </div>
   );
